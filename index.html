@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>MD5 Generator</title>
+    <link rel="stylesheet" href="styleme.css">
+
+    <link rel="stylesheet" href="extra.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.1/core.css">
+    <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
+    <script src="https://kit.fontawesome.com/b0d93850a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        <h1><span>Hash</span> Generator</h1>
+        <p>Generate your hash data online in just one click</p>
+
+ 
+        <div class="container">
+              <h1>All Hash Converter 2.0</h1>
+
+              <div id="md5">
+                <input type="text" id="md5_input" placeholder="Enter any Word...." />
+                <button py-click="md5_converter">Generate MD5</button> 
+                <i class="fa-solid fa-circle-arrow-right fa-beat fa-sm" style="color: #63E6BE;"></i>
+                <textarea class="output" id="md5_output" cols="40" rows="3" placeholder="MD5 Shown here..."></textarea>
+                <button onclick="myFunction()" id="copy">Copy MD5 Value</button>
+                <a href="aboutmd5.html">
+                     <i class="fa-solid fa-book"></i>
+                 </a>
+              </div>
+
+              <div id="sha1">
+                <input type="text" id="sha1_input" placeholder="Enter any Word...." />
+                <button py-click="sha1_converter">Generate SHA1</button> 
+                <i class="fa-solid fa-circle-arrow-right fa-beat fa-sm" style="color: #63E6BE;"></i>
+                <textarea class="output" id="sha1_output" cols="40" rows="3" placeholder="SHA1 Shown here..."></textarea>
+                <button onclick="myFunction1()" id="copy1">Copy SHA1 Value</button>
+                 <a href="aboutsha1.html">
+                     <i class="fa-solid fa-book"></i>
+                 </a>
+              </div> 
+
+             
+        </div>
+
+
+<footer> <i class="fa-solid fa-user-plus" style="color: #ffffff;"></i>Created By Abhayraj Patel & CSF Team</footer>
+
+        <script type="py" src="./main.py" config="./pyscript.json"></script>
+                      
+</body>
+</html>
+
+
+
+
